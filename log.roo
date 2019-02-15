@@ -1,0 +1,27 @@
+// Spring Roo 2.0.0.RELEASE [rev 4a2e9f1] log opened at 2019-02-15 01:47:56
+hint
+project setup --topLevelPackage com.davidlj95.rootest
+hint
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+hint
+help
+// Spring Roo 2.0.0.RELEASE [rev 4a2e9f1] log opened at 2019-02-15 01:49:37
+hint
+entity jpa --class ~.Timer
+hint
+field string --fieldName message --notNull
+hint web mvc
+hint
+// [failed] repository jpa 
+repository jpa --all 
+hint
+service --all 
+hint
+web mvc setup 
+hint
+// [failed] web mvc controller 
+web mvc controller --all 
+hint
+// Spring Roo 2.0.0.RELEASE [rev 4a2e9f1] log opened at 2019-02-15 01:56:18
+hint
+help
